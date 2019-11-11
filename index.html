@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grids Practice Website</title>
+    <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Raleway:800&display=swap" rel="stylesheet">
+  <!--Font Awesome -->
+  <script src="https://kit.fontawesome.com/acbf586384.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="grid-wrapper">
+
+      <div class="backdrop"></div> <!-- end backdrop -->
+
+      <header class="main-header">
+
+          <a class="main-header__brand" href="index.html">logotype</a>
+
+          <nav class="main-nav">
+            <ul class="main-nav__items">
+              <li class="main-nav__item"><a href="#first-section">Секция 1</a></li>
+              <li class="main-nav__item"><a href="#second-section">Секция 2</a></li>
+              <li class="main-nav__item main-nav__item--cta"><a href="#third-section">Форма</a></li>
+            </ul>
+          </nav>
+
+          <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+          </button>
+
+          <div class="main-header__info">
+            <p class="main-header__annotation">Аннотация</p>
+            <h1 class="main-header__heading">Большой заголовок</h1>
+            <p class="main-header__description">Идейные соображения высшего порядка, а также консультация с широким активом в значительной степени.</p>
+
+            <form class="subscription">
+              <input type="email" placeholder="email адрес">
+              <button name="submit" class="subscription-button" type="submit"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></button>
+            </form>
+          </div> <!-- end main-header__info -->
+
+          <img class="main-header__image" src="images/header-illustration.svg" alt="illustration">
+
+
+      </header>
+
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+          <li class="mobile-nav__item"><a href="#first-section">Секция 1</a></li>
+          <li class="mobile-nav__item"><a href="#second-section">Секция 2</a></li>
+          <li class="mobile-nav__item"><a href="#third-section">Форма</a></li>
+        </ul>
+      </nav>
+
+      <main>
+
+        <section id="first-section">
+
+          <div class="section-heading">
+            <h2 class="section-heading__text">Средний заголовок</h2>
+            <div class="section-heading__decoration"></div>
+          </div><!-- end section heading -->
+
+          <div class="cards">
+
+            <div class="card-item">
+              <p class="card-item__annotation">Аннотация</p>
+              <h3 class="card-item__heading">Маленький заголовок</h3>
+              <p class="card-item__info">Какой-то текст, описание чего либо и т. д.</p>
+              <a href="#">Узнать больше</i></a>
+            </div><!-- end card item -->
+
+            <div class="card-item card-item--highlighted">
+              <p class="card-item__annotation">Аннотация</p>
+              <h3 class="card-item__heading">Маленький заголовок</h3>
+              <p class="card-item__info">Какой-то текст, описание чего либо и т. д.</p>
+              <a href="#"><i class="fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i></a>
+            </div><!-- end card item -->
+
+            <div class="card-item">
+              <p class="card-item__annotation">Аннотация</p>
+              <h3 class="card-item__heading">Маленький заголовок</h3>
+              <p class="card-item__info">Какой-то текст, описание чего либо и т. д.</p>
+              <a href="#">Узнать больше</i></a>
+            </div><!-- end card item -->
+
+            <div class="card-item">
+              <p class="card-item__annotation">Аннотация</p>
+              <h3 class="card-item__heading">Маленький заголовок</h3>
+              <p class="card-item__info">Какой-то текст, описание чего либо и т. д.</p>
+              <a href="#">Узнать больше</i></a>
+            </div><!-- end card item -->
+
+          </div><!-- end card list -->
+
+        </section><!-- end first-section -->
+
+        <section id="second-section">
+          <div class="section-heading">
+            <h2 class="section-heading__text">Средний заголовок</h2>
+            <div class="section-heading__decoration"></div>
+          </div><!-- end section heading -->
+
+          <div class="pictures">
+
+            <div class="picture-item">
+
+              <img class="picture-item__image" src="images/plants-1.jpg">
+              <p class="picture-item__annotation">Аннотация</p>
+              <p class="picture-item__info">Идейные соображения высшего порядка, а также консультация с широким активом в значительной степени.</p>
+              <a href="#">Узнать больше <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div><!--end picture-item -->
+
+            <div class="picture-item">
+              <img class="picture-item__image" src="images/plants-2.jpg">
+              <p class="picture-item__annotation">Аннотация</p>
+              <p class="picture-item__info">Идейные соображения высшего порядка, а также консультация с широким активом в значительной степени.</p>
+              <a href="#">Узнать больше <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div><!--end picture-item -->
+
+            <div class="picture-item">
+              <img class="picture-item__image" src="images/plants-3.jpg">
+              <p class="picture-item__annotation">Аннотация</p>
+              <p class="picture-item__info">Идейные соображения высшего порядка, а также консультация с широким активом в значительной степени.</p>
+              <a href="#">Узнать больше <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div><!--end picture-item -->
+
+          </div><!-- end pictures -->
+
+        </section><!-- end second-section -->
+
+        <section id="dark-section">
+
+          <div class="dark-section__info">
+            <p class="dark-section__annotation">Аннотация</p>
+            <h1 class="dark-section__heading">Большой заголовок</h1>
+            <p class="dark-section__description">Идейные соображения высшего порядка, а также консультация с широким активом в значительной степени.</p>
+          </div> <!-- end main-header__info -->
+
+          <img class="dark-section__image" src="images/dark-section-illustration.svg" alt="illustration">
+
+
+        </section><!-- end dark-section -->
+
+        <section id="features">
+
+          <div class="feature-item">
+            <img class="feature-item__icon" src="images/leaf-icon.svg">
+            <h2 class="feature-item__heading">40k+</h2>
+            <p class="feature-item__info">Какое-то описание</p>
+          </div><!-- end feature__item -->
+
+          <div class="feature-item">
+            <img class="feature-item__icon" src="images/water-icon.svg">
+            <h2 class="feature-item__heading">2.5m</h2>
+            <p class="feature-item__info">Какое-то описание</p>
+          </div><!-- end feature__item -->
+
+          <div class="feature-item">
+            <img class="feature-item__icon" src="images/sun-icon.svg">
+            <h2 class="feature-item__heading">40k+</h2>
+            <p class="feature-item__info">Какое-то описание</p>
+          </div><!-- end feature__item -->
+
+        </section><!-- end features -->
+
+        <section id="third-section">
+
+          <div class="section-heading">
+            <h2 class="section-heading__text">Средний заголовок</h2>
+            <div class="section-heading__decoration"></div>
+          </div><!-- end section heading -->
+
+          <form class="signup-form">
+            <label for="first-input">Имя</label>
+            <input type="text" id="first-input" required>
+            <label for="second-input">E-mail</label>
+            <input type="email" id="second-input" required>
+            <label for="third-input">Пароль</label>
+            <input type="password" id="first-input" required>
+            <div class="signup-form__checkbox">
+              <input type="checkbox" id="agree-terms"> <!--class="invalid"-->
+              <label for="agree-terms">Agree to <a href="#">Terms &amp; Conditions</a></label>
+            </div>
+            <button type="submit" class="button">Регистрация</button>
+          </form>
+
+        </section><!-- end third-section -->
+      </main>
+
+      <footer>
+        <a href="#first-section">Секция 1</a>
+        <a href="#first-section">Секция 2</a>
+        <a href="#first-section">Форма</a>
+        <p>&copy; 3-МВА-4 Джурумбаева Злата</p>
+      </footer>
+
+
+  </div>
+
+  <script type="text/javascript" src="mobile-nav.js"></script>
+
+</body>
+</html>
